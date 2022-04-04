@@ -4,8 +4,9 @@ if [ "$USER" != "root" ]
 else
 
   echo "Install Packages"
-    sudo apt install xterm
-    sudo apt install python3
+    sudo apt install xterm -y
+    sudo apt install python3 -y
+    sudo apt install python3-pip
     pip install guizero
     pip install glob
 
